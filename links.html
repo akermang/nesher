@@ -2,31 +2,34 @@
 <html>
 <head>
 <style>
-.item1 { grid-area: header1; }
-.item2 { grid-area: header2 }
-.item3 { grid-area: header3 }
-.item4 { grid-area: main1 }
-.item5 { grid-area: main2; }
-.item6 { grid-area: main3; }
-.item7 { grid-area: footer1; }
-.item8 { grid-area: footer2; }
-.item9 { grid-area: footer3; }
+.item1 { grid-area: header2; }
+.item2 { grid-area: header3 }
+.item3 { grid-area: header4 }
+.item4 { grid-area: main2 }
+.item5 { grid-area: main3; }
+.item6 { grid-area: main4; }
+.item7 { grid-area: footer2; }
+.item8 { grid-area: footer3; }
+.item9 { grid-area: footer4; }
 
 .grid-container {
   display: grid;
   grid-template-areas:
-    'header1 header2 header3 header4 header5 header6'
-    'main1 main2 main3 main4 main5 main6  '
-    'footer1 footer2 footer3 footer4 footer5 footer6';
+    'header1 header2 header3 header4 header5'
+    'main1 main2 main3 main4 main5'
+    'footer1 footer2 footer3 footer4 footer5';
   grid-gap: 10px;
-  background-color: #2196F3;
   padding: 10px;
+  background: rgb(195, 240, 195);
 }
 .grid-container > div {
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: rgba(24, 16, 70, 0.8);
   text-align: center;
-  padding: 20px 0;
+  padding: 20px 20px;
   font-size: 30px;
+  height:120px;
+  width: 120px;
+  margin: 0 auto;
 }
 </style>
 </head>
