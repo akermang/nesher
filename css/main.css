@@ -73,7 +73,7 @@ img{
 }
 
 header{
-  background: pink;
+  background: #fff;
   height: 10%;
   display: flex;
   justify-content: space-around;
@@ -107,21 +107,19 @@ header > div{
 }
 
 .links-container {
-  height: 80%;
-  background: grey;
+  height: 90%;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  background: #264159;
+  
 }
 
 .container {
-  height: 33%;
   display: flex;
   justify-content: space-around;
   max-width: 500px;
   margin: 0 auto;
-  background: #fff;
-  border-bottom: 2px solid black;
 }
 
 .links-container div div {
